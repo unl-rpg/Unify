@@ -1,0 +1,85 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35aab1c6-15dd-4821-b557-6d0445af7467")
+	(paper "A")
+	(title_block
+		(title "Unify")
+		(date "2025-02-26")
+		(rev "1")
+		(company "Rocket Propulsion Group, UNL")
+		(comment 1 "Jack Shaver")
+	)
+	(lib_symbols)
+	(text "Max Power Calculations\nIgniter Current = .75 - 1.25A (Pulse)\nESPNOW Current = 400mA (Tx)\nCAN Current = 70mA (Dom Tx)\nSD Card Current = 200mA (Reading/Writing)\nSensor Currents = 70mA\nBuzzer Current = 30mA\nBattery Charger = (NA)\n\nMax Estimate = 2.5A\nUse low on resistance P-Channel Mosfets spec'd for at least 3 amps"
+		(exclude_from_sim no)
+		(at 152.4 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a317473-d044-470c-b6e4-8bc2733cd599")
+	)
+	(text "To Do"
+		(exclude_from_sim no)
+		(at 27.94 68.58 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4d9fc35e-2055-42ed-9e0f-434c82eea857")
+	)
+	(text "Finish SD Card. Check/ Change part/ footprint. \nFinish Power Supplies. Increase current capabilities.\nPick out p channel mosfets 4-6A. Pick out diode 4-6A.\n	\n\n"
+		(exclude_from_sim no)
+		(at 33.02 88.9 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7e0fca8a-c600-4e46-bd8e-69a9d9d80649")
+	)
+	(text "USB Type C CC Current Advertisments from DFP:\n	0V Both: Not Connected\n	0.25 - 0.61V: USB Basic\n	0.7 - 1.16V: 1.5A\n	1.31 - 2.04V: 3A\n\n	Use two comparators with thresholds at either 0.66V or 1.23V, OR the outputs together.\n	Either of the CC lines will be pulled up if a cable with CC signalling is connected.\n\nThis approact is the bare minimum to conditionally detect DFP current advertisement. \n	It can be broken by USB A to C cables with a CC pullup resistor that breaks the specificaiton.\n		This has been documented by an engineer at Google, but it seems to be rare.\n\nThis allows for a device to charge if the usb host can supply enough power.	"
+		(exclude_from_sim no)
+		(at 29.21 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e9c30ed-bc3b-4ca0-aa19-a0ea36b8091c")
+	)
+	(text "Unify is a combined remote control and data aquisition pcb, which is configurable as a \"Base Station\" or a \"Test Stand\".\nIt is designed to be modular, extensible, and cheap such that it may be used as a base for a more complete RPG control network.\nESPNOW is used for medium range communicaiton between Unify units. A CAN bus allows for expansion of local wired networks.\nA base station contains a subset of the Unify compontents. A test stand contains the entire design."
+		(exclude_from_sim no)
+		(at 35.56 46.99 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "90d7f914-c962-4c34-8ab3-942f72bcd894")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 29.21 35.56 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a74b4f39-3dc7-4792-b81a-c194bdfb43a4")
+	)
+)

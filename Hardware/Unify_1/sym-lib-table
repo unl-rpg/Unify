@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Unify")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Unify.kicad_sym")(options "")(descr ""))
+)

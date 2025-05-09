@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9f437c0-2509-44ea-94f6-705c5ee85df0")
+	(paper "A")
+	(title_block
+		(title "Unify")
+		(date "2025-02-26")
+		(rev "1")
+		(company "Rocket Propulsion Group, UNL")
+		(comment 1 "Jack Shaver")
+	)
+	(lib_symbols)
+)

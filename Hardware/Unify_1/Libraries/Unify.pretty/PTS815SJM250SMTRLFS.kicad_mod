@@ -1,0 +1,137 @@
+(footprint "PTS815SJM250SMTRLFS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Button 4 Pin Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0.8 -19.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ba5782f-365d-4808-9a30-d503e8738e54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTS815SJM250SMTRLFS"
+		(at 0.8 -18.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0c89fa7b-2190-4470-9469-ccd559dff9bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.8 -19.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b048cb4d-c2d2-425c-a0b1-714397843833")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.8 -19.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb8d06c0-798e-4e74-94d9-6a13208c6c9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.8 -19.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7715afda-0021-40f6-b0a8-537ce60f8bb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.1 -0.5)
+		(end 4.1 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8d61e7f6-5a04-4b9b-963c-917fcb4b8f5d")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 4.5 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3c7016ae-c7f7-4e11-a086-33897b72af62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.8 -16.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8481667b-2300-49d2-8828-6448db6a136f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c6d4ab3a-b237-4fb1-ae4f-462a701b433f")
+	)
+	(pad "2" smd roundrect
+		(at 4 0)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5a754121-b5c1-4a5d-8ffa-7034a261b3d0")
+	)
+	(pad "3" smd roundrect
+		(at 0 2.15)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e7551955-e4fb-4f5f-a9cc-e9cb2738c4c1")
+	)
+	(pad "4" smd roundrect
+		(at 4 2.15)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8fee9b72-83b1-48cd-9fad-8948574d8538")
+	)
+)

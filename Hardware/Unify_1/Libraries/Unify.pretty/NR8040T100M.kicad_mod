@@ -1,0 +1,98 @@
+(footprint "NR8040T100M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.1 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "817393ec-4281-48b1-a5a7-eab255a97d3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NR8040T100M"
+		(at 3.1 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f375ca2-1eab-431d-ad3e-99ba4857d4d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 3.1 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42a83d2a-3962-4d1b-a364-3efc71bf4b15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 3.1 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce06d58d-4cd5-4bab-bd75-e254533e440e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10uH Inductor 3.1A 44.2mOhm 8x8mm"
+		(at 2.9 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33727afa-80ee-45c0-bf48-65e183792d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 3.1 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c7c8798-f5cc-46aa-8acf-f181360b94b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.8 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "dff61f36-8847-46bc-a50d-6b10cb35c7e3")
+	)
+	(pad "2" smd roundrect
+		(at 5.6 0)
+		(size 1.8 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "909f2a60-f91c-46c0-98d0-799403624fd7")
+	)
+)

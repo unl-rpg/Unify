@@ -1,0 +1,271 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d7aca1e7-56c9-4872-aeb9-41a48900f4f9")
+	(paper "A")
+	(title_block
+		(title "Unify")
+		(date "2025-02-26")
+		(rev "1")
+		(company "Rocket Propulsion Group, UNL")
+		(comment 1 "Jack Shaver")
+	)
+	(lib_symbols)
+	(text "Unify 1"
+		(exclude_from_sim no)
+		(at 91.44 38.1 0)
+		(effects
+			(font
+				(size 14 14)
+				(thickness 2.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3078a648-b3a9-4db6-a5a6-072ea0d1c415")
+	)
+	(text "Remote Testing System\nRocket Propulsion Group, UNL"
+		(exclude_from_sim no)
+		(at 132.08 60.96 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "36e209cf-086e-4890-a63e-76a2a065a60f")
+	)
+	(sheet
+		(at 134.62 92.71)
+		(size 29.21 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "1b9292f0-c70a-4d1a-842a-3d6ec4b1e7b2")
+		(property "Sheetname" "Power"
+			(at 134.62 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 134.62 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 92.71)
+		(size 26.67 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "38a20e1a-5936-479a-9615-a00a0a165935")
+		(property "Sheetname" "Peripherals"
+			(at 200.66 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 200.66 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 92.71)
+		(size 26.67 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "7d0319c0-66ac-4b5f-a410-40b86d157a84")
+		(property "Sheetname" "Rear Panel"
+			(at 104.14 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RearPanel.kicad_sch"
+			(at 104.14 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 92.71)
+		(size 26.67 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "9a6c083c-e5d0-48e1-b884-455a8840a511")
+		(property "Sheetname" "Front Panel"
+			(at 73.66 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FrontPanel.kicad_sch"
+			(at 73.66 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 92.71)
+		(size 29.21 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "abf090f9-a50e-4cee-98fc-42c9ec4f2fdd")
+		(property "Sheetname" "Core"
+			(at 167.64 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core.kicad_sch"
+			(at 167.64 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 92.71)
+		(size 24.13 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "d4a8147a-234d-42ea-9ca1-f2010f59f46a")
+		(property "Sheetname" "Info"
+			(at 45.72 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Info.kicad_sch"
+			(at 45.72 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

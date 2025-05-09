@@ -1,0 +1,98 @@
+(footprint "PA4332.222NLT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -13.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad332b1a-d04c-44c0-a76f-4776bb008977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PA4332.222NLT"
+		(at 0 -11.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30c7ec71-08e1-4307-bf2a-073d18ae5311")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6413ba8e-9752-4210-8f4e-fcc33b0db72d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59ca2ca2-80ba-4459-896c-cd7af560de24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor 2.2uH 4.3A 48mOhm 4.2x4.2mm"
+		(at 0 -12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e7c063-7059-4e7f-8b43-91d9a4420913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4cc2f293-76bd-4f80-a5d4-57c4b92c3c86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 3.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "69b2d0da-8a88-463b-be48-64c4d49cb434")
+	)
+	(pad "2" smd roundrect
+		(at 0 3)
+		(size 3.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "58c6308a-8ddf-4574-8a1d-b59bd5c358e7")
+	)
+)

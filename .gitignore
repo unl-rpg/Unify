@@ -1,0 +1,11 @@
+# ESP IDF Ignores
+Firmware/*/build
+
+# KiCAD Ignores
+Hardware/*/*.kicad_pcb-bak
+Hardware/*/*.sch-bak
+Hardware/*/*.kicad_prl
+Hardware/*/*backups
+Hardware/*/*.bak
+
+# Third Party Ignores

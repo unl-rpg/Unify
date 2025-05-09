@@ -1,0 +1,321 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5659e154-d5aa-4e0f-9187-c95dcfc59c2f")
+	(paper "A")
+	(title_block
+		(title "Unify")
+		(date "2025-02-26")
+		(rev "1")
+		(company "Rocket Propulsion Group, UNL")
+		(comment 1 "Jack Shaver")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 57.15 64.77)
+		(end 124.46 110.49)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92d2bc6f-14fb-43b4-b99e-b560ef825077)
+	)
+	(hierarchical_label "TH_2"
+		(shape input)
+		(at 203.2 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02dabc01-dd46-447d-93ed-8cf0ef117913")
+	)
+	(hierarchical_label "PT_2"
+		(shape input)
+		(at 200.66 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d1cf23c-e047-40f6-814b-cd9f587ba717")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 72.39 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "433cb45e-b657-4ac5-8609-527246770e79")
+	)
+	(hierarchical_label "TH_3"
+		(shape input)
+		(at 215.9 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b249a7c-0903-4ae1-901e-619ac38a552d")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape output)
+		(at 72.39 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f80ccfb-68a0-44e7-ae96-ecfde1f2139e")
+	)
+	(hierarchical_label "LC_1_NEG"
+		(shape input)
+		(at 189.23 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fdc3c2d-0b7b-42c6-a900-313f27d88c85")
+	)
+	(hierarchical_label "LC_1_POS"
+		(shape input)
+		(at 189.23 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62e49c94-c42e-4e83-8139-d23345e84d38")
+	)
+	(hierarchical_label "LC_2_POS"
+		(shape input)
+		(at 210.82 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69940dbe-8abd-4f91-a23e-7df38237a639")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 72.39 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e0e9923-c159-489d-951b-edd3b31b3aef")
+	)
+	(hierarchical_label "LC_3_NEG"
+		(shape input)
+		(at 231.14 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af56968e-1dc4-4e78-aa70-e891c8f8c8ed")
+	)
+	(hierarchical_label "TH_1"
+		(shape input)
+		(at 190.5 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b14835ba-4704-43eb-bb9a-46915fbb1812")
+	)
+	(hierarchical_label "LC_3_POS"
+		(shape input)
+		(at 231.14 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b58410dd-b8c6-497e-a2a3-c75c3b0cce94")
+	)
+	(hierarchical_label "LC_2_NEG"
+		(shape input)
+		(at 210.82 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b72d7ac6-e80f-4499-a605-8d62c283c824")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 72.39 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8b4b25e-b7cc-4f7d-b7c4-7f336a269b08")
+	)
+	(hierarchical_label "PT_1"
+		(shape input)
+		(at 189.23 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f61063d6-d8e7-47cd-b274-f3469ded742d")
+	)
+	(sheet
+		(at 153.67 78.74)
+		(size 30.48 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a2bd390-ac00-41d7-a8e9-1f8750486519")
+		(property "Sheetname" "Thermistor Amplifier"
+			(at 153.67 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ThermistorAmplifier.kicad_sch"
+			(at 153.67 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9/97306078-1bcd-4a5e-bb39-f578babf865f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 105.41)
+		(size 30.48 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32096169-1a6b-4b50-814f-5c534ca4dca5")
+		(property "Sheetname" "Pressure Transducer Amplifier"
+			(at 153.67 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PressureTransducerAmplifier.kicad_sch"
+			(at 153.67 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9/97306078-1bcd-4a5e-bb39-f578babf865f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 57.15)
+		(size 30.48 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b384879-d6cc-4a28-b2e4-68f8ad68b5c5")
+		(property "Sheetname" "Load Cell Amplifier"
+			(at 153.67 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoadCellAmplifier.kicad_sch"
+			(at 153.67 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Unify_1"
+				(path "/d7aca1e7-56c9-4872-aeb9-41a48900f4f9/97306078-1bcd-4a5e-bb39-f578babf865f"
+					(page "8")
+				)
+			)
+		)
+	)
+)
